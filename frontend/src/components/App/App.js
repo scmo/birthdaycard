@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Contact from '../Contact/Contact'
+import Contacts from '../Contact/Contacts'
 import History from '../History/History'
 import Navbar from '../NavBar/NavBar';
 
@@ -27,7 +27,7 @@ function App() {
                 <h1>Application</h1>
                 <Switch>
                     <Route path="/contact">
-                        <Contact />
+                        <Contacts tokenId={token.tokenId} />
                     </Route>
                     <Route path="/history">
                         <History />
