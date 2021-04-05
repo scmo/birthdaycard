@@ -1,0 +1,20 @@
+{
+  "name": "birthdaycard-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "google-auth-library": "^7.0.3",
+    "helmet": "^4.4.1",
+    "morgan": "^1.10.0"
+  }
+}
